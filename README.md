@@ -40,7 +40,7 @@ O arquivo PDF gerado a partir do .tex está incluído na pasta documentacao/.
 
 Enzo Chemin
 
-Gabriel
+Gabriel Kemmerer
 
 Lucas Neres
 
