@@ -34,7 +34,7 @@ Requisitos
 
 Considerações finais
 
-O arquivo PDF gerado a partir do .tex está incluído na pasta documentacao/.
+O arquivo PDF gerado a partir do .tex está incluído
 
 👨‍💻 Autores
 
