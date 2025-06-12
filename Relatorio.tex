@@ -1,0 +1,182 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault} % Usa fonte sem serifa (Helvetica/Arial)
+
+\geometry{
+    top=3cm,
+    left=3cm,
+    right=2cm,
+    bottom=2cm
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Documentação do Projeto}
+\lhead{Portfólio Matheus A. de Souza}
+\rfoot{\thepage}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+\begin{document}
+
+% Capa no formato ABNT
+\begin{titlepage}
+    \begin{center}
+        \large
+        \textbf{UNIVERSIDADE POSITIVO}\\[0.5cm]
+        CURSO SUPERIOR DE TECNOLOGIA EM\\
+        ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+
+        \vspace{3cm} % Espaço entre instituição e autores
+
+        GABRIEL KEMMERER\\
+        LUCAS NERES\\
+        LEONARDO VALENTE\\
+        ENZO CHEMIN
+
+        \vspace{4cm} % Espaço entre autores e título
+
+        \textbf{DOCUMENTAÇÃO DO PROJETO}\\
+        \textbf{PORTFÓLIO DO MATHEUS ANTONIELE DE SOUZA}
+
+        \vfill
+
+        Curitiba – PR\\
+        2025
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Introdução}
+Este documento apresenta o andamento do projeto de criação do portfólio digital do Matheus Antoniele de Souza. Estamos na fase inicial, organizando ideias e documentação antes de iniciar o desenvolvimento da aplicação web.
+
+\section{Objetivo do Projeto}
+O objetivo é criar um portfólio online que destaque os projetos, experiências e qualificações do Matheus, servindo como vitrine profissional e canal de contato. O portfólio será desenvolvido com foco em usabilidade, design limpo e responsividade.
+
+\section{Objetivo Profissional do Matheus}
+Matheus deseja atuar na área de Tecnologia da Informação, com foco em suporte técnico e desenvolvimento de sistemas. Ele busca oportunidades que lhe permitam expandir seus conhecimentos em software, afastando-se gradualmente do setor de hardware, onde já possui sólida experiência.
+
+\section{Experiência Profissional}
+\textbf{Bios Update Informática} – Curitiba/PR \\
+\textit{Suporte Técnico em TI (2022 - Atual)}
+
+\begin{itemize}
+  \item Atendimento e suporte técnico a usuários.
+  \item Manutenção de hardware e infraestrutura de TI.
+  \item Cabeamento de rede e configuração de equipamentos.
+  \item Diagnóstico e solução de problemas técnicos.
+\end{itemize}
+
+\section{Formação Acadêmica}
+\begin{itemize}
+  \item Ensino Médio Completo.
+  \item Superior de Tecnologia em Análise e Desenvolvimento de Sistemas – \textbf{Universidade Positivo} (em andamento, turno noturno).
+\end{itemize}
+
+\section{Habilidades e Competências}
+\begin{itemize}
+  \item Manutenção e assistência técnica em TI.
+  \item Cabeamento e configuração de redes.
+  \item Conhecimentos em hardware e infraestrutura.
+  \item Programação nas linguagens C, Python, Java, SQL e HTML.
+\end{itemize}
+
+\section{Idiomas}
+\begin{itemize}
+  \item Português: Nativo.
+  \item Inglês: Básico (atualmente em curso de aprimoramento).
+\end{itemize}
+
+\section{Informações de Contato}
+\begin{itemize}
+  \item \textbf{Nome:} Matheus Antoniele de Souza
+  \item \textbf{Localidade:} Curitiba, Paraná
+  \item \textbf{Telefone / WhatsApp:} (41) 99263-0374
+  \item \textbf{E-mail:} \href{mailto:matheus.antoniele@gmail.com}{matheus.antoniele@gmail.com}
+  \item \textbf{LinkedIn:} \href{https://www.linkedin.com/in/matheus-antoniel-a756b634b}{Matheus-Antoniele}
+  \item \textbf{GitHub:} \href{https://github.com/Antoniele20}{Antoniele20}
+\end{itemize}
+
+\section{Equipe}
+O projeto está sendo desenvolvido pelos seguintes integrantes:
+
+\begin{itemize}
+  \item Gabriel Kemmerer
+  \item Lucas Neres
+  \item Leonardo Valente
+  \item Enzo Chemin
+\end{itemize}
+
+\section{Ferramentas Utilizadas}
+\begin{itemize}
+  \item \textbf{Trello:} Gerenciamento de tarefas e progresso do time.
+  \item \textbf{Overleaf:} Criação colaborativa da documentação em LaTeX.
+  \item \textbf{Pacote Office:} Word, Excel e PowerPoint para relatórios, cronogramas e apresentações.
+  \item \textbf{Canva:} Criação de mockups e materiais visuais.
+\end{itemize}
+
+\section{Organização do Trabalho}
+No Trello, as tarefas são organizadas em colunas:
+
+\begin{itemize}
+  \item Backlog
+  \item Em andamento
+  \item Em revisão
+  \item Concluído
+\end{itemize}
+
+Reuniões regulares com o Matheus ajudam a alinhar expectativas, apresentar protótipos e registrar feedbacks para o desenvolvimento do portfólio.
+
+\section{Requisitos Funcionais}
+Os seguintes requisitos foram organizados com base na metodologia MoSCoW:
+
+\subsection*{Must (Obrigatórios)}
+\begin{itemize}
+  \item Exibir nome completo do cliente.
+  \item Mostrar resumo profissional e formação acadêmica.
+  \item Listar experiências profissionais.
+  \item Apresentar o portfólio de projetos.
+  \item Garantir que o site seja responsivo.
+\end{itemize}
+
+\subsection*{Should (Importantes)}
+\begin{itemize}
+  \item Exibir foto profissional do cliente.
+  \item Mostrar habilidades técnicas e interpessoais.
+  \item Inserir links externos (LinkedIn, GitHub).
+\end{itemize}
+
+\subsection*{Could (Desejáveis)}
+\begin{itemize}
+  \item Botão para baixar o currículo em PDF.
+  \item Formulário de contato com validação básica.
+\end{itemize}
+
+\section{Próximos Passos}
+\begin{itemize}
+  \item Definir layout e funcionalidades finais.
+  \item Iniciar desenvolvimento com HTML, CSS e Java.
+  \item Implementar controle de versão via GitHub.
+  \item Atualizar documentação conforme o progresso.
+\end{itemize}
+
+\section{Conclusão}
+A documentação clara e contínua é fundamental para o sucesso do projeto. A combinação de ferramentas tecnológicas e o contato constante com o cliente asseguram o alinhamento das expectativas e a qualidade final da entrega.
+
+\end{document}
